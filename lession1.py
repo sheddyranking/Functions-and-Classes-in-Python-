@@ -14,8 +14,8 @@ if (number < 100 or number >= 300) and (number % 3 == 0 or number % 7 == 0 ):
         print("Divisible by both")
     elif (number % 3 == 0):
        print("divisible by 3")
-    #elif(number % 7 == 0):
-        #print("Divisible by 7")
+    elif(number % 7 == 0):
+        print("Divisible by 7")
 else:
     print("not special number")
 

@@ -6,10 +6,9 @@
 #print out not "not special number"
 
 
-number  = 303
+number  = 70
 
-if (number < 100 or number >= 300) and (number % 3 == 0 or number % 7 == 0 ):
-    print("special numbr")
+if (number < 100 or number >= 300) and (number % 3 == 0 or number % 7 == 0 ): 
     if(number % 3 == 0 and number % 7 == 0):
         print("Divisible by both")
     elif (number % 3 == 0):
